@@ -2,6 +2,6 @@ require "pry"
 
 class Hash
   def keys_of(arguments)
-    arguments.to_a
+    arguments
   end
 end
