@@ -3,7 +3,9 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     self.map do |k, v|
-      if v ==  
+      arguments.map do |i|
     binding.pry
+      end
+    end
   end
 end
