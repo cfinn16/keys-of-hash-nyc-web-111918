@@ -8,6 +8,5 @@ class Hash
           k
         end
       end
-    end.compact.flatten
-  end
+    end.flatten.compact
 end
