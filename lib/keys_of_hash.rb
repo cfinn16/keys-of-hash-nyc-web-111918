@@ -9,5 +9,5 @@ class Hash
         end
       end
     end
-  end.compact.flatten
+  end.flatten.compact
 end
