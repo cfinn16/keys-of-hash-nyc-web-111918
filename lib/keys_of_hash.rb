@@ -6,7 +6,6 @@ class Hash
       arguments.map do |i|
         if i == v 
           k
-    binding.pry
         end
       end
     end
