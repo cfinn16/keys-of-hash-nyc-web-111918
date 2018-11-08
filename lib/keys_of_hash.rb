@@ -7,7 +7,7 @@ class Hash
         if i == v 
           k
     binding.pry
-      end
+        end
       end
     end
   end
